@@ -1,0 +1,90 @@
+body{
+	background-color:#c49792;
+	color: #22223b;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	font-size: 16px;
+}
+h1,h2{
+	font-family: 'Zen Antique', serif;
+}
+h1{
+	color: #9a8c98;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+h2{
+	color: #4a4e69;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	font-size: 24px;
+}
+a{
+	text-decoration: none;
+	color: #9a8c98;
+}
+a:hover{
+	color: #006d77;
+}
+
+#picture {
+  width: 80px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-bordered {
+  border: 2px solid white;
+}
+.text-justify { 
+  text-align: justify;
+}
+.container{
+	margin: 60px auto;
+	width: 700px;
+}
+
+@media ( max-width:  760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width:  500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white{
+	padding: 30px; 
+	box-shadow: 0px 10px 30px rgba (0, 0, 0, 0.1);
+	border-radius: 4px; 
+	background: #f2e9e4;
+	margin: 20px 0px;
+	text-align: center;
+}
+.btn-blue{
+	background-color: #9a8c98;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
